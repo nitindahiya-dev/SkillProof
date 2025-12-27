@@ -1,0 +1,201 @@
+=====================================================
+TASK BREAKDOWN
+PROJECT: AI + Blockchain Hiring Trust Platform
+VERSION: MVP 1.0
+DURATION: 30–45 Days
+=====================================================
+
+-----------------------------------------------------
+EPIC 1: PROJECT SETUP & INFRASTRUCTURE
+-----------------------------------------------------
+
+STORY: Monorepo Setup
+- TASK: Initialize monorepo (frontend + backend + AI)
+- TASK: Setup GitHub repository with branch strategy
+- TASK: Configure environment variables
+- TASK: Setup ESLint, Prettier, Husky
+PRIORITY: HIGH
+
+STORY: Deployment Setup
+- TASK: Setup Vercel for Next.js frontend
+- TASK: Setup backend deployment (Railway / Render)
+- TASK: Setup AI service deployment
+- TASK: Setup CI/CD pipeline
+PRIORITY: HIGH
+
+-----------------------------------------------------
+EPIC 2: AUTHENTICATION & USER MANAGEMENT
+-----------------------------------------------------
+
+STORY: User Authentication
+- TASK: Implement email authentication
+- TASK: Implement wallet-based authentication
+- TASK: Role-based access (Candidate / Employer)
+- TASK: Secure session handling
+PRIORITY: HIGH
+
+STORY: User Profiles
+- TASK: Candidate profile schema (skills, resume, GitHub)
+- TASK: Employer profile schema
+- TASK: Profile create / update APIs
+- TASK: Profile UI pages
+PRIORITY: HIGH
+
+-----------------------------------------------------
+EPIC 3: CANDIDATE DASHBOARD
+-----------------------------------------------------
+
+STORY: Candidate Dashboard UI
+- TASK: Dashboard layout (Next.js + Tailwind)
+- TASK: Profile completion status indicator
+- TASK: Skill verification status UI
+PRIORITY: HIGH
+
+STORY: Resume & GitHub Integration
+- TASK: Resume upload & parsing
+- TASK: GitHub username linking
+- TASK: Fetch GitHub stats (repos, commits)
+PRIORITY: MEDIUM
+
+-----------------------------------------------------
+EPIC 4: AI INTERVIEW SYSTEM
+-----------------------------------------------------
+
+STORY: AI Question Generator
+- TASK: Design prompt for coding questions
+- TASK: Generate questions per skill
+- TASK: Difficulty-level handling
+PRIORITY: HIGH
+
+STORY: Code Evaluation Engine
+- TASK: Setup secure code execution sandbox
+- TASK: Capture execution output
+- TASK: Time & complexity evaluation
+PRIORITY: HIGH
+
+STORY: Skill Scoring System
+- TASK: Normalize score (0–100)
+- TASK: Generate interview report
+- TASK: Detect suspicious behavior
+PRIORITY: HIGH
+
+-----------------------------------------------------
+EPIC 5: BLOCKCHAIN – SKILLPROOF NFT
+-----------------------------------------------------
+
+STORY: Smart Contract Development
+- TASK: Design SkillProof NFT contract (ERC-721)
+- TASK: Store skill + score hash
+- TASK: Implement minting logic
+PRIORITY: HIGH
+
+STORY: Blockchain Integration
+- TASK: Connect wallet (Ethers.js)
+- TASK: Mint SkillProof NFT after verification
+- TASK: Verify NFT ownership
+PRIORITY: HIGH
+
+STORY: Network & Deployment
+- TASK: Deploy contract on Polygon / Base
+- TASK: Verify contract on explorer
+- TASK: Save contract addresses
+PRIORITY: HIGH
+
+-----------------------------------------------------
+EPIC 6: PUBLIC VERIFICATION PROFILE
+-----------------------------------------------------
+
+STORY: Public Profile Page
+- TASK: Generate shareable profile URL
+- TASK: Display verified skills
+- TASK: Show SkillProof NFT links
+PRIORITY: HIGH
+
+STORY: Verification Logic
+- TASK: Verify NFT ownership on page load
+- TASK: Display on-chain verification badge
+PRIORITY: HIGH
+
+-----------------------------------------------------
+EPIC 7: EMPLOYER DASHBOARD
+-----------------------------------------------------
+
+STORY: Employer Dashboard UI
+- TASK: Employer dashboard layout
+- TASK: Candidate listing page
+- TASK: Candidate detail page
+PRIORITY: HIGH
+
+STORY: Filtering & Search
+- TASK: Filter by skill
+- TASK: Filter by score range
+- TASK: Filter by verification status
+PRIORITY: MEDIUM
+
+STORY: Reports & Verification
+- TASK: View AI interview report
+- TASK: Verify SkillProof NFT
+PRIORITY: HIGH
+
+-----------------------------------------------------
+EPIC 8: BACKEND APIs & DATABASE
+-----------------------------------------------------
+
+STORY: Database Design
+- TASK: Design user tables
+- TASK: Design interview tables
+- TASK: Design skill verification tables
+PRIORITY: HIGH
+
+STORY: Backend APIs
+- TASK: Auth APIs
+- TASK: Interview APIs
+- TASK: Skill verification APIs
+- TASK: Employer APIs
+PRIORITY: HIGH
+
+-----------------------------------------------------
+EPIC 9: SECURITY & FRAUD PREVENTION
+-----------------------------------------------------
+
+STORY: Fraud Detection
+- TASK: Track interview timing patterns
+- TASK: Detect copy-paste behavior
+- TASK: Flag suspicious sessions
+PRIORITY: MEDIUM
+
+STORY: Security Hardening
+- TASK: API rate limiting
+- TASK: Input validation
+- TASK: Secure secrets management
+PRIORITY: HIGH
+
+-----------------------------------------------------
+EPIC 10: QA, TESTING & LAUNCH
+-----------------------------------------------------
+
+STORY: Testing
+- TASK: Frontend testing
+- TASK: Backend API testing
+- TASK: Smart contract testing
+PRIORITY: HIGH
+
+STORY: Launch Preparation
+- TASK: Seed initial users
+- TASK: Prepare demo data
+- TASK: Create landing page
+PRIORITY: HIGH
+
+-----------------------------------------------------
+EPIC 11: POST-MVP METRICS
+-----------------------------------------------------
+
+STORY: Analytics
+- TASK: Track user onboarding funnel
+- TASK: Track interview completion rate
+- TASK: Track employer engagement
+PRIORITY: MEDIUM
+
+=====================================================
+END OF TASK BREAKDOWN
+=====================================================

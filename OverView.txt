@@ -1,0 +1,250 @@
+=====================================================
+PROJECT NAME (SkillProof)
+=====================================================
+AI + Blockchain Hiring Trust Platform
+"The Trust Layer for Remote Hiring"
+
+=====================================================
+CORE IDEA
+=====================================================
+A platform that verifies real skills of developers and freelancers using AI-driven interviews
+and stores verified proof on blockchain for tamper-proof trust.
+
+Think:
+LinkedIn + GitHub + AI Interviewer + Blockchain Credential
+
+=====================================================
+TARGET USERS
+=====================================================
+1. Candidates (Developers / Freelancers)
+2. Employers (Startups / Companies)
+
+=====================================================
+PROBLEM STATEMENT
+=====================================================
+- Fake resumes and fake experience
+- No trusted way to verify remote candidates
+- Manual hiring is slow and expensive
+- Freelancers cannot prove real skills
+- Employers lose money on bad hires
+
+=====================================================
+SOLUTION
+=====================================================
+An AI-powered skill verification system where:
+- AI conducts coding interviews
+- Skills are scored objectively
+- Verified skills are minted as blockchain credentials (NFTs)
+- Employers can instantly verify trust
+
+=====================================================
+MVP FEATURES (30–45 DAYS)
+=====================================================
+
+-------------------------
+Candidate Features
+-------------------------
+- Email / Wallet login
+- Profile creation (skills, resume, GitHub)
+- AI coding interview (text-based)
+- AI-generated skill score (e.g. React: 78/100)
+- Blockchain SkillProof NFT issuance
+- Public verification profile (shareable link)
+
+-------------------------
+Employer Features
+-------------------------
+- Employer dashboard
+- View verified candidate profiles
+- Filter candidates by skill score and tech stack
+- Download AI interview report
+- Verify SkillProof NFT on blockchain
+
+-------------------------
+AI (MVP Scope)
+-------------------------
+- Resume parsing
+- Coding question generation
+- Code evaluation
+- Skill scoring and normalization
+- Basic fraud detection (time taken, copy-paste detection)
+
+-------------------------
+Blockchain (MVP Scope)
+-------------------------
+- ERC-721 SkillProof NFT
+- Store skill name, score hash, timestamp
+- On-chain verification contract
+- Network: Polygon or Base (low gas)
+
+-------------------------
+NOT INCLUDED IN MVP
+-------------------------
+- DAO
+- Video interviews
+- Token economics
+- Multi-chain
+- AI voice bots
+
+=====================================================
+SYSTEM ARCHITECTURE (HIGH LEVEL)
+=====================================================
+
+Frontend (Next.js 14)
+- Candidate Dashboard
+- Employer Dashboard
+- Public Profile Pages
+
+Backend (Node.js / NestJS)
+- Authentication
+- User profiles
+- Interview management
+- Employer access control
+
+AI Microservice (Python + FastAPI)
+- Coding question generator
+- Code evaluation engine
+- Skill scoring
+- Fraud analysis
+
+Blockchain Layer
+- Solidity Smart Contracts
+- SkillProof NFT minting
+- On-chain verification
+
+Database & Infra
+- PostgreSQL (main DB)
+- Redis (caching)
+- Object storage (reports, logs)
+
+=====================================================
+TECH STACK
+=====================================================
+
+Frontend
+- Next.js 14 (App Router)
+- Tailwind CSS
+- Zustand / Redux
+- Ethers.js
+
+Backend
+- Node.js
+- NestJS
+- PostgreSQL
+- Redis
+- Supabase Auth
+
+AI
+- Python
+- FastAPI
+- LLM APIs (OpenAI / open-source)
+- Docker sandbox for code execution
+
+Blockchain
+- Solidity
+- Polygon / Base
+- The Graph (future indexing)
+
+=====================================================
+SMART CONTRACT (MVP DESIGN)
+=====================================================
+
+Contract Type:
+- ERC-721 NFT
+
+SkillProof NFT Metadata:
+{
+  "candidateWallet": "0x...",
+  "skill": "React",
+  "scoreHash": "hash_of_score_and_report",
+  "issuedAt": "timestamp",
+  "issuer": "Platform"
+}
+
+Properties:
+- Immutable
+- Publicly verifiable
+- Shareable credential
+
+=====================================================
+VC-READY ROADMAP (6–12 MONTHS)
+=====================================================
+
+-------------------------
+PHASE 1: MVP LAUNCH (Month 0–2)
+-------------------------
+- AI coding interviews
+- SkillProof NFT minting
+- Public candidate profiles
+- Onboard 5–10 companies
+
+KPIs:
+- 200 verified candidates
+- 20 employers
+
+-------------------------
+PHASE 2: PRODUCT MARKET FIT (Month 3–5)
+-------------------------
+Features:
+- Multi-skill verification
+- GitHub auto-analysis
+- Employer shortlisting AI
+- Interview replay reports
+- Team dashboards
+
+Monetization:
+- Employer subscriptions
+- Paid skill verification
+
+KPIs:
+- $3k–$10k MRR
+- Retention > 40%
+
+-------------------------
+PHASE 3: TRUST MOAT (Month 6–9)
+-------------------------
+Features:
+- Advanced fraud detection AI
+- Reputation graph
+- Skill decay tracking
+- On-chain work history
+- ATS API integrations
+
+KPIs:
+- $25k+ MRR
+- 100+ companies
+
+-------------------------
+PHASE 4: SCALE & FUNDRAISE (Month 9–12)
+-------------------------
+Features:
+- Video AI interviews
+- Multi-language support
+- Enterprise hiring tools
+- DAO-based verification
+
+Fundraising Target:
+- Seed / Pre-Series A
+- $1M–$3M raise
+
+=====================================================
+WHY VCs WILL LIKE THIS
+=====================================================
+- Huge market (AI + Hiring)
+- Strong monetization (SaaS)
+- Blockchain creates trust moat
+- Scales globally
+- Clear narrative for future of work
+
+=====================================================
+NEXT STEPS (EXECUTION)
+=====================================================
+1. Create monorepo (frontend + backend + AI)
+2. Build AI interview MVP
+3. Deploy SkillProof smart contract
+4. Launch with early adopters
+5. Iterate using feedback
+
+=====================================================
+END OF DOCUMENT
+=====================================================
